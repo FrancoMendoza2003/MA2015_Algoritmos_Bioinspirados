@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /home/sheldon/Documents/TEC/5to/MA2015.301_Algoritmos_Bioinspirados/MA2015_Algoritmos_Bioinspirados/env_bioispirados/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from numpy.f2py.f2py2e import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

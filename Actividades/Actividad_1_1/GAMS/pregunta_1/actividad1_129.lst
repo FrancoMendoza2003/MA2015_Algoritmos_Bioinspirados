@@ -1,0 +1,240 @@
+GAMS 42.5.0  cf11b917 Mar 30, 2023          WEX-WEI x86 64bit/MS Windows - 11/05/23 21:09:37 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  option OptCR = 0.00001;
+   2  set
+   3  i /1*20/;
+   4   
+   5  Variable
+   6  z;
+   7   
+   8  binary variable
+   9  x(i);
+  10   
+  11  Parameter
+  12  p(i)/
+  13  1 107.0
+  14  2 105.0
+  15  3 81.0
+  16  4 112.0
+  17  5 72.0
+  18  6 115.0
+  19  7 66.0
+  20  8 67.0
+  21  9 70.0
+  22  10 114.0
+  23  11 60.0
+  24  12 111.0
+  25  13 87.0
+  26  14 107.0
+  27  15 98.0
+  28  16 95.0
+  29  17 65.0
+  30  18 104.0
+  31  19 79.0
+  32  20 74.0
+  33  /;
+  34   
+  35  Parameter
+  36  b(i)/
+  37  1 1967.0
+  38  2 1841.0
+  39  3 1259.0
+  40  4 1347.0
+  41  5 1645.0
+  42  6 1538.0
+  43  7 1812.0
+  44  8 1325.0
+  45  9 1906.0
+  46  10 1782.0
+  47  11 1429.0
+  48  12 1769.0
+  49  13 1053.0
+  50  14 1131.0
+  51  15 1384.0
+  52  16 1461.0
+  53  17 1996.0
+  54  18 82.0
+  55  19 80.0
+  56  20 107.0
+  57  /;
+  58   
+  59  equations
+  60  FO
+  61  r1;
+  62   
+  63  FO.. z =e= sum(i, x(i)*b(i));
+  64   
+  65  r1.. sum(i,  x(i)*p(i)) =l= 700;
+  66   
+  67  model pregunta29_cargero /all/;
+  68  solve pregunta29_cargero using mip max z;
+
+
+COMPILATION TIME     =        0.015 SECONDS      3 MB  42.5.0 cf11b917 WEX-WEI
+GAMS 42.5.0  cf11b917 Mar 30, 2023          WEX-WEI x86 64bit/MS Windows - 11/05/23 21:09:37 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Equation Listing    SOLVE pregunta29_cargero Using MIP From line 68
+
+
+---- FO  =E=  
+
+FO..  z - 1967*x(1) - 1841*x(2) - 1259*x(3) - 1347*x(4) - 1645*x(5) - 1538*x(6) - 1812*x(7) - 1325*x(8) - 1906*x(9) - 1782*x(10) - 1429*x(11) - 1769*x(12) - 1053*x(13) - 1131*x(14) - 1384*x(15) - 1461*x(16) - 1996*x(17) - 82*x(18) - 80*x(19) - 107*x(20) =E= 0 ; (LHS = 0)
+     
+
+---- r1  =L=  
+
+r1..  107*x(1) + 105*x(2) + 81*x(3) + 112*x(4) + 72*x(5) + 115*x(6) + 66*x(7) + 67*x(8) + 70*x(9) + 114*x(10) + 60*x(11) + 111*x(12) + 87*x(13) + 107*x(14) + 98*x(15) + 95*x(16) + 65*x(17) + 104*x(18) + 79*x(19) + 74*x(20) =L= 700 ; (LHS = 0)
+     
+GAMS 42.5.0  cf11b917 Mar 30, 2023          WEX-WEI x86 64bit/MS Windows - 11/05/23 21:09:37 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Column Listing      SOLVE pregunta29_cargero Using MIP From line 68
+
+
+---- z  
+
+z
+                (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
+        1       FO
+
+
+---- x  
+
+x(1)
+                (.LO, .L, .UP, .M = 0, 0, 1, 0)
+    -1967       FO
+      107       r1
+
+x(2)
+                (.LO, .L, .UP, .M = 0, 0, 1, 0)
+    -1841       FO
+      105       r1
+
+x(3)
+                (.LO, .L, .UP, .M = 0, 0, 1, 0)
+    -1259       FO
+       81       r1
+
+REMAINING 17 ENTRIES SKIPPED
+GAMS 42.5.0  cf11b917 Mar 30, 2023          WEX-WEI x86 64bit/MS Windows - 11/05/23 21:09:37 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Range Statistics    SOLVE pregunta29_cargero Using MIP From line 68
+
+
+RANGE STATISTICS (ABSOLUTE NON-ZERO FINITE VALUES)
+
+RHS       [min, max] : [ 7.000E+02, 7.000E+02] - Zero values observed as well
+Bound     [min, max] : [ 1.000E+00, 1.000E+00] - Zero values observed as well
+Matrix    [min, max] : [ 1.000E+00, 1.996E+03]
+
+GAMS 42.5.0  cf11b917 Mar 30, 2023          WEX-WEI x86 64bit/MS Windows - 11/05/23 21:09:37 Page 5
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE pregunta29_cargero Using MIP From line 68
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           2     SINGLE EQUATIONS            2
+BLOCKS OF VARIABLES           2     SINGLE VARIABLES           21
+NON ZERO ELEMENTS            41     DISCRETE VARIABLES         20
+
+
+GENERATION TIME      =        0.047 SECONDS      4 MB  42.5.0 cf11b917 WEX-WEI
+GAMS 42.5.0  cf11b917 Mar 30, 2023          WEX-WEI x86 64bit/MS Windows - 11/05/23 21:09:37 Page 6
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE pregunta29_cargero Using MIP From line 68
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   pregunta29_cargero   OBJECTIVE  z
+     TYPE    MIP                  DIRECTION  MAXIMIZE
+     SOLVER  CPLEX                FROM LINE  68
+
+**** SOLVER STATUS     1 Normal Completion
+**** MODEL STATUS      1 Optimal
+**** OBJECTIVE VALUE            15180.0000
+
+ RESOURCE USAGE, LIMIT          0.046 10000000000.000
+ ITERATION COUNT, LIMIT         1    2147483647
+--- *** This solver runs with a demo license. No commercial use.
+--- GMO setup time: 0.00s
+--- GMO memory 0.50 Mb (peak 0.50 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 22.1.1.0 link memory 0.00 Mb (peak 0.00 Mb)
+--- Starting Cplex
+
+
+--- MIP status (101): integer optimal solution.
+--- Cplex Time: 0.05sec (det. 0.11 ticks)
+
+--- Returning a primal only solution to GAMS (marginals all set to NA).
+--- Fixing integer variables and solving final LP...
+
+
+--- Fixed MIP status (1): optimal.
+--- Cplex Time: 0.00sec (det. 0.01 ticks)
+
+
+Proven optimal solution
+MIP Solution:        15180.000000    (1 iterations, 0 nodes)
+Final Solve:         15180.000000    (0 iterations)
+
+Best possible:       15180.000000
+Absolute gap:            0.000000
+Relative gap:            0.000000
+
+
+                           LOWER          LEVEL          UPPER         MARGINAL
+
+---- EQU FO                  .              .              .             1.0000      
+---- EQU r1                -INF          693.0000       700.0000          .          
+
+                           LOWER          LEVEL          UPPER         MARGINAL
+
+---- VAR z                 -INF        15180.0000        +INF             .          
+
+---- VAR x  
+
+          LOWER          LEVEL          UPPER         MARGINAL
+
+1           .             1.0000         1.0000      1967.0000      
+2           .             1.0000         1.0000      1841.0000      
+3           .             1.0000         1.0000      1259.0000      
+4           .              .             1.0000      1347.0000      
+5           .             1.0000         1.0000      1645.0000      
+6           .              .             1.0000      1538.0000      
+7           .             1.0000         1.0000      1812.0000      
+8           .             1.0000         1.0000      1325.0000      
+9           .             1.0000         1.0000      1906.0000      
+10          .              .             1.0000      1782.0000      
+11          .             1.0000         1.0000      1429.0000      
+12          .              .             1.0000      1769.0000      
+13          .              .             1.0000      1053.0000      
+14          .              .             1.0000      1131.0000      
+15          .              .             1.0000      1384.0000      
+16          .              .             1.0000      1461.0000      
+17          .             1.0000         1.0000      1996.0000      
+18          .              .             1.0000        82.0000      
+19          .              .             1.0000        80.0000      
+20          .              .             1.0000       107.0000      
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+
+
+EXECUTION TIME       =        0.266 SECONDS      4 MB  42.5.0 cf11b917 WEX-WEI
+
+
+USER: GAMS Demo license for Azahel Ramirez           G230417|0002CO-GEN
+      Instituto Tecnologico y de Estudios Superiores de MonterrDL090178
+
+
+**** FILE SUMMARY
+
+Input      D:\MA2015_Algoritmos_Bioinspirados\Actividades\Actividad_1_1\GAMS\pregunta_1\actividad1_129.gms
+Output     D:\MA2015_Algoritmos_Bioinspirados\Actividades\Actividad_1_1\GAMS\pregunta_1\actividad1_129.lst

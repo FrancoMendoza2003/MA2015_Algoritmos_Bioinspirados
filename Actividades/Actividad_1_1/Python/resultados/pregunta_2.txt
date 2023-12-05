@@ -1,0 +1,261 @@
+
+SOLUTION:
+------
+c4 --> c8 --> c1 --> c5 --> c3 --> c9 --> c6
+
+Función Objetivo: 11149.0
+Costo Total: 688.0
+
+Problem 1 Execution Time: 0.6456989999605867ms
+
+SOLUTION:
+------
+c7 --> c9 --> c3 --> c6 --> c8 --> c10 --> c1 --> c2
+
+Función Objetivo: 13119.0
+Costo Total: 676.0
+
+Problem 2 Execution Time: 0.5975079999416266ms
+
+SOLUTION:
+------
+c9 --> c5 --> c4 --> c1 --> c7 --> c3
+
+Función Objetivo: 10315.0
+Costo Total: 647.0
+
+Problem 3 Execution Time: 0.5675439999777154ms
+
+SOLUTION:
+------
+c10 --> c5 --> c6 --> c3 --> c1 --> c9 --> c8
+
+Función Objetivo: 12053.0
+Costo Total: 645.0
+
+Problem 4 Execution Time: 0.6060289999822999ms
+
+SOLUTION:
+------
+c6 --> c3 --> c7 --> c1 --> c2 --> c4 --> c5 --> c9
+
+Función Objetivo: 11952.0
+Costo Total: 696.0
+
+Problem 5 Execution Time: 0.5977870000606345ms
+
+SOLUTION:
+------
+c8 --> c1 --> c9 --> c5 --> c2 --> c4 --> c6 --> c7
+
+Función Objetivo: 12341.0
+Costo Total: 697.0
+
+Problem 6 Execution Time: 0.5410740000115766ms
+
+SOLUTION:
+------
+c3 --> c2 --> c11 --> c6 --> c7 --> c8 --> c4 --> c13
+
+Función Objetivo: 11900.0
+Costo Total: 688.0
+
+Problem 7 Execution Time: 0.8447520000345321ms
+
+SOLUTION:
+------
+c2 --> c6 --> c11 --> c7 --> c1 --> c4 --> c3
+
+Función Objetivo: 12416.0
+Costo Total: 657.0
+
+Problem 8 Execution Time: 0.8045920000085971ms
+
+SOLUTION:
+------
+c13 --> c8 --> c7 --> c10 --> c1 --> c3 --> c2 --> c9
+
+Función Objetivo: 13088.0
+Costo Total: 661.0
+
+Problem 9 Execution Time: 0.8717109999452077ms
+
+SOLUTION:
+------
+c5 --> c10 --> c3 --> c7 --> c4 --> c1 --> c9 --> c12
+
+Función Objetivo: 13856.0
+Costo Total: 662.0
+
+Problem 10 Execution Time: 0.8390250000047672ms
+
+SOLUTION:
+------
+c7 --> c9 --> c11 --> c12 --> c6 --> c3 --> c1
+
+Función Objetivo: 11997.0
+Costo Total: 682.0
+
+Problem 11 Execution Time: 0.7449459999406827ms
+
+SOLUTION:
+------
+c13 --> c2 --> c3 --> c10 --> c9 --> c7 --> c1 --> c6
+
+Función Objetivo: 13431.0
+Costo Total: 696.0
+
+Problem 12 Execution Time: 0.8214250000264656ms
+
+SOLUTION:
+------
+c2 --> c13 --> c15 --> c7 --> c4 --> c1 --> c6 --> c10
+
+Función Objetivo: 14320.0
+Costo Total: 656.0
+
+Problem 13 Execution Time: 1.0410109999838824ms
+
+SOLUTION:
+------
+c3 --> c11 --> c4 --> c6 --> c7 --> c2 --> c8 --> c5
+
+Función Objetivo: 14034.0
+Costo Total: 672.0
+
+Problem 14 Execution Time: 1.0352140000122745ms
+
+SOLUTION:
+------
+c10 --> c15 --> c11 --> c14 --> c4 --> c12 --> c1
+
+Función Objetivo: 11611.0
+Costo Total: 645.0
+
+Problem 15 Execution Time: 0.8772290000251814ms
+
+SOLUTION:
+------
+c4 --> c2 --> c3 --> c5 --> c13 --> c10 --> c14 --> c11
+
+Función Objetivo: 14464.0
+Costo Total: 698.0
+
+Problem 16 Execution Time: 0.9582469999713794ms
+
+SOLUTION:
+------
+c3 --> c15 --> c9 --> c8 --> c5 --> c11 --> c10 --> c4
+
+Función Objetivo: 14260.0
+Costo Total: 684.0
+
+Problem 17 Execution Time: 0.9286339999334814ms
+
+SOLUTION:
+------
+c15 --> c2 --> c7 --> c3 --> c6 --> c1 --> c9 --> c8
+
+Función Objetivo: 12747.0
+Costo Total: 686.0
+
+Problem 18 Execution Time: 1.1269880000099874ms
+
+SOLUTION:
+------
+c6 --> c13 --> c17 --> c5 --> c4 --> c9 --> c10 --> c1
+
+Función Objetivo: 15074.0
+Costo Total: 669.0
+
+Problem 19 Execution Time: 1.1378840000588752ms
+
+SOLUTION:
+------
+c6 --> c10 --> c13 --> c4 --> c14 --> c12 --> c5 --> c2
+
+Función Objetivo: 13256.0
+Costo Total: 698.0
+
+Problem 20 Execution Time: 1.1585569999397194ms
+
+SOLUTION:
+------
+c15 --> c8 --> c4 --> c3 --> c1 --> c11 --> c2 --> c12
+
+Función Objetivo: 13853.0
+Costo Total: 677.0
+
+Problem 21 Execution Time: 1.2668139999050254ms
+
+SOLUTION:
+------
+c4 --> c8 --> c9 --> c7 --> c5 --> c13 --> c14
+
+Función Objetivo: 11948.0
+Costo Total: 635.0
+
+Problem 22 Execution Time: 1.0134229999039235ms
+
+SOLUTION:
+------
+c14 --> c2 --> c6 --> c12 --> c9 --> c1 --> c5
+
+Función Objetivo: 12512.0
+Costo Total: 669.0
+
+Problem 23 Execution Time: 1.0317219999933513ms
+
+SOLUTION:
+------
+c12 --> c3 --> c9 --> c15 --> c1 --> c6 --> c10 --> c4
+
+Función Objetivo: 14265.0
+Costo Total: 650.0
+
+Problem 24 Execution Time: 1.3337240000055317ms
+
+SOLUTION:
+------
+c12 --> c17 --> c7 --> c10 --> c4 --> c3 --> c14
+
+Función Objetivo: 12450.0
+Costo Total: 647.0
+
+Problem 25 Execution Time: 1.3864549999880182ms
+
+SOLUTION:
+------
+c4 --> c10 --> c2 --> c5 --> c3 --> c9 --> c14
+
+Función Objetivo: 12281.0
+Costo Total: 680.0
+
+Problem 26 Execution Time: 1.206958000011582ms
+
+SOLUTION:
+------
+c17 --> c6 --> c2 --> c10 --> c12 --> c13 --> c11
+
+Función Objetivo: 12542.0
+Costo Total: 694.0
+
+Problem 27 Execution Time: 1.2458599999263242ms
+
+SOLUTION:
+------
+c6 --> c13 --> c10 --> c3 --> c15 --> c12 --> c4 --> c9
+
+Función Objetivo: 14104.0
+Costo Total: 698.0
+
+Problem 28 Execution Time: 1.3918329999569323ms
+
+SOLUTION:
+------
+c17 --> c1 --> c9 --> c2 --> c7 --> c10 --> c12 --> c11
+
+Función Objetivo: 14502.0
+Costo Total: 698.0
+
+Problem 29 Execution Time: 1.466005999986919ms

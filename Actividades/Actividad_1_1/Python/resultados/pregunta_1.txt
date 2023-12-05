@@ -1,0 +1,11 @@
+
+SOLUTION:
+------
+c7 --> c1 --> c2 --> c10 --> c9 --> c6 --> c8
+
+Función Objetivo: 11016
+Costo Total: 678
+
+
+Execution Time: 0.798523999947065ms
+

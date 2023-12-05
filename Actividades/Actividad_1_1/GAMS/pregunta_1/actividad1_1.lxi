@@ -1,0 +1,14 @@
+B 3 C o m p i l a t i o n
+B 79 Equation Listing    SOLVE pregunta29_cargero Using MIP From line 68
+D 82 FO
+D 87 r1
+B 93 Column Listing      SOLVE pregunta29_cargero Using MIP From line 68
+E 96 z
+E 103 x
+B 123 Range Statistics    SOLVE pregunta29_cargero Using MIP From line 68
+B 134 Model Statistics    SOLVE pregunta29_cargero Using MIP From line 68
+B 147 Solution Report     SOLVE pregunta29_cargero Using MIP From line 68
+F 192 FO
+F 193 r1
+G 197 z
+G 199 x
